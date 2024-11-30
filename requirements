@@ -1,0 +1,25 @@
+
+Install Tailwind CSS with Vite (https://tailwindcss.com/docs/guides/vite)
+Lucide React (https://lucide.dev/guide/packages/lucide-react)
+Poppins (https://fonts.google.com/specimen/Poppins)
+
+
+
+TECHNICS
+#########
+Steps to Enable and Use Emmet in Visual Studio Code
+1. Ensure Emmet is Enabled
+
+    Emmet is enabled by default in VS Code, but if it's not working, you can verify the settings:
+        Open the Command Palette (press Ctrl+Shift+P or Cmd+Shift+P on macOS).
+        Search for Preferences: Open Settings (JSON) and open it.
+        Add the following line to ensure Emmet is enabled for your desired file types:
+
+"emmet.includeLanguages": {
+    "javascript": "html",
+    "javascriptreact": "html",
+    "typescriptreact": "html"
+}
+
+IntelliSense
+
